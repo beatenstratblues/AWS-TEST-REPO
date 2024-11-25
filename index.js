@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000
 
 app.get("/",(req,res)=>{
-    res.send("Hello this is my first express server, that is deployed on AWS, hello Pulla and friends, will join you");
+    res.send("Hello Komal,Aman,shrishti, This is a cloud deployed node application!!");
 })
 
 app.listen(PORT, ()=>{
